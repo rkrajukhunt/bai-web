@@ -1,0 +1,35 @@
+.consult-services.xamin-circle {
+    padding: 0;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+.consult-services.xamin-circle .circle-effect {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    margin-bottom: 30px;
+    border-radius: 90px;
+    background: #eff1fe;
+    box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3);
+}
+.consult-services.xamin-circle.right:before {
+    background-image: url(../images/other_images/26.png);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -143px;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 200px;
+}
+.consult-services img {
+    margin: 0px 0 15px;
+}
+
+@media (max-width: 991px){
+    .consult-services.xamin-circle.right:before{
+        display: none;
+    }
+}
