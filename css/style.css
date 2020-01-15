@@ -1598,6 +1598,16 @@ p {
   .shape {
     bottom: -4px;
   }
+  #topnav .logo img{
+    width: 21% !important;
+    position: absolute;
+    }
+}
+@media (min-width: 320px) and (max-width: 500px){
+  #topnav .logo img{
+    width: 34% !important;
+    position: absolute;
+    }
 }
 
 #topnav {
@@ -1616,7 +1626,9 @@ p {
   float: left;
   color: #3c4858 !important;
 }
-
+#topnav .logo img{
+width: 40%;
+}
 #topnav .has-submenu.active a {
   color: #ffffff;
 }
